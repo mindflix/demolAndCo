@@ -1,5 +1,5 @@
-# demolAndCo
-D&amp;C Repository
+# D&amp;C Repository
+
 ## Introduction
 Le projet demolAndCo a pour but d'être à la fois un site vitrine pour l'entreprise D&amp;C et une plateforme de mise en relation avec ses clients potentiels.
 Ce site contiendra plusieurs modules propre à D&amp;C :
