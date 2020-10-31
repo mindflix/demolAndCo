@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://demolandco.com/index.html</loc>
+    <changefreq>daily</changefreq>
+		<priority>1.0</priority>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/introduction-visual.png</image:loc>
+      <image:title>Astronaute</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/contact-visual.png</image:loc>
+      <image:geo_location>Lille, France</image:geo_location>
+      <image:title>Place de Lille</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/logodncround.png</image:loc>
+      <image:geo_location>Lille, France</image:geo_location>
+      <image:title>DnC Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/logodncfullb.png</image:loc>
+      <image:geo_location>Lille, France</image:geo_location>
+      <image:title>DnC Logo Noir</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/about-history.jpg</image:loc>
+      <image:title>Histoire</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/about-philosophy.jpg</image:loc>
+      <image:title>Philosophie</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/about-visual.png</image:loc>
+      <image:title>Femme en noir</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/about-winners.jpg</image:loc>
+      <image:title>Winners</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/work-victory.jpg</image:loc>
+      <image:title>Victory Culture</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://demolandco.com/assets/img/work-metiew-smith.jpg</image:loc>
+      <image:title>Lips</image:title>
+    </image:image>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+</urlset>
+
