@@ -38,6 +38,6 @@ Ce projet est découpé en 2 modules :
 ### Vitrine Projets réalisés
 ![Mission](https://github.com/mindflix/demolAndCo/blob/main/assets/img/screenshots/mission.png?raw=true)
 ### Menu
-![Request](https://github.com/mindflix/demolAndCo/blob/main/assets/img/screenshots/menu.png.png?raw=true)
+![Request](https://github.com/mindflix/demolAndCo/blob/main/assets/img/screenshots/menu.png?raw=true)
 ### Module Prise de Contact
-![Request](https://github.com/mindflix/demolAndCo/blob/main/assets/img/screenshots/request.png.png?raw=true)
+![Request](https://github.com/mindflix/demolAndCo/blob/main/assets/img/screenshots/request.png?raw=true)
