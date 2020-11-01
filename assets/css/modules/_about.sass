@@ -14,6 +14,9 @@
   &--banner
     position: relative
     height: 475px
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
 
     &::before
       content: ""
@@ -62,17 +65,22 @@
         height: 10px
         background-color: $highlight
 
-    a
+    button
+      position: relative
       padding: 5px 17px 5px 0
       text-decoration: none
       color: $white
       font-weight: 700
       text-transform: uppercase
       background-color: transparent
+      border: none
 
       &:hover
         svg
           left: 10px
+
+      &:focus
+        outline: none
 
       svg
         position: relative
@@ -85,6 +93,32 @@
       position: absolute
       bottom: -90px
       right: -12px
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+  &--more
+    position: relative
+    height: 475px
+    display: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    h2
+      position: relative
+      margin-top: 35px
+      font-size: 30px
+      line-height: 1
+      z-index: 1
+
+    &.is-active
+      display: block
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
 
   &--options
     display: flex
@@ -102,9 +136,9 @@
       color: $white
       border: 10px solid $highlight
       background:
-        position: center
-        size: cover
-        repeat: no-repeat
+      position: center
+      size: cover
+      repeat: no-repeat
 
       &:nth-child(1)
         background-image: url("../img/about-winners.jpg")
