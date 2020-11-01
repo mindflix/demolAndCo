@@ -61,6 +61,21 @@ $(document).ready(function () {
     }, 400);
   });
 
+  function toggleFullscreen() {
+    let elem = document.querySelector(".perspective");
+    $(".fullscreen").click(function () {
+      if (!document.fullscreenElement) {
+        elem.requestFullscreen().catch((err) => {
+          alert(
+            `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
+          );
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    });
+  }
+
   // swipe support for touch devices
   var targetElement = document.getElementById("viewport"),
     mc = new Hammer(targetElement);
@@ -153,7 +168,7 @@ $(document).ready(function () {
   }
 
   function outerNav() {
-    $(".header--nav-toggle").click(function () {
+    $(".expend").click(function () {
       $(".perspective").addClass("perspective--modalview");
       setTimeout(function () {
         $(".perspective").addClass("effect-rotate-left--animate");
@@ -326,6 +341,7 @@ $(document).ready(function () {
     });
   }
 
+  toggleFullscreen();
   outerNav();
   workSlider();
   transitionLabels();

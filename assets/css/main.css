@@ -506,6 +506,25 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header--nav-toggle.expend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 50px;
   height: 50px;
   -webkit-box-orient: vertical;
@@ -521,7 +540,7 @@ body {
   cursor: pointer;
 }
 
-.header--nav-toggle span, .header--nav-toggle::before, .header--nav-toggle::after {
+.header--nav-toggle.expend span, .header--nav-toggle.expend::before, .header--nav-toggle.expend::after {
   content: "";
   position: relative;
   width: 16px;
@@ -529,14 +548,37 @@ body {
   background-color: #fff;
 }
 
-.header--nav-toggle::before {
+.header--nav-toggle.expend::before {
   bottom: 5px;
   width: 23px;
 }
 
-.header--nav-toggle::after {
+.header--nav-toggle.expend::after {
   top: 5px;
   width: 23px;
+}
+
+.header--nav-toggle.fullscreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.header--nav-toggle.fullscreen svg {
+  width: 40%;
 }
 
 .header--cta {
